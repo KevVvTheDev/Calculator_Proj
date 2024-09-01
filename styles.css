@@ -72,3 +72,9 @@ body{
     background-color: #d4d4d2;
     color: black;
 }
+
+button:hover{
+
+    cursor: pointer;
+    
+}
