@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border:1px solid white;
+    /* border:1px solid white; */
     height: 30vh;
     padding-right: 40px;
     color: white;
