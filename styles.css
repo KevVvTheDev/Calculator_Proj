@@ -26,13 +26,24 @@ body{
 
 .display{
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     /* border:1px solid white; */
     height: 30vh;
-    padding-right: 40px;
+    padding-right: 10px;
     color: white;
-    font-size: 65px;
+    font-size: 60px;
+}
+
+.track{
+    height: 8vh;
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 40px;
 }
 
 .keys{
