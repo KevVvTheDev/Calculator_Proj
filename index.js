@@ -105,6 +105,10 @@ for(let i = 0; i < operatorButton.length; i++){
 //--------------------- This is for clicking equal btn ---------------------
 const equalButton = document.querySelector(".equal");
 equalButton.addEventListener("click", function(){
+    if(calculation.operator == null){
+        return;
+    }
+
     calculation.secondNum = Number(document.querySelector(".display p").innerHTML);
     calculation.result = calculate(calculation.firstNum, calculation.secondNum, calculation.operator);
     calculation.operator = null;
